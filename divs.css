@@ -1,0 +1,118 @@
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    body {
+      background-color: #f1f1f1;
+      font-family: 'Calibri', sans-serif;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    /* .row.content {height: 450px} */
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      /*background-color: #000;*/
+      /* height: 100%; */
+    }
+
+    .background_white {
+      background: #ffffff;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+.title {
+  font-family: 'Calibri';
+  font-size: 4em;
+  text-align: center;
+  background-color: #48A799;
+  color: #ffffff;
+  padding: 10px 10px 10px 10px;
+}
+
+p {
+  font-family: 'Calibri' sans-serif;
+}
+
+.overview {
+  background-color: #dedfe0;
+  padding: 10px;
+  margin: 10px;
+}
+
+.img-responsive {
+max-width: 100%;
+max-height: 100%;
+}
+
+.foot-text {
+  font-family: 'Calibri' sans-serif;
+  font-size: 1.25rem;
+  padding: 10px 17% 0% 17%;
+}
+
+.pagination {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #48A799;
+    color: white;
+    border: 1px solid #48A799;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.center {
+    text-align: center;
+}
+
+.ig_heading {
+  font-family: 'Calibri' sans-serif;;
+  font-size: 2em;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #EFCA00;
+}
+
+h3 {
+  font-family: 'Calibri'
+  font-weight: normal;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #48A799;
+}
+
+.italic {
+  font-style: italic;
+}
